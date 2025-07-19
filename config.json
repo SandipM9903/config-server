@@ -2,5 +2,9 @@
   "mongodb":{
     "uri": "mongodb://localhost:27017/nodems"
   },
-  "jwtSecret": "my-secret-key"
+  "jwtSecret": "my-secret-key",
+  "server": {
+    "port": 3000,
+    "host": "localhost"
+  },
 }
